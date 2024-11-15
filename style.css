@@ -1,0 +1,338 @@
+:root {
+    --cor-de-fundo: #F5F5F5;
+    --cor-de-fundo-menu: #ffffff;
+    --cor-do-link: #000000;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    line-height: 1.6;
+    width: 100%;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-do-link);
+}
+
+/* ---- Seção Menu --*/
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 1rem;
+
+}
+
+.navegacao {
+    list-style: none;
+    justify-content: center;
+}
+
+.navegacao__lista {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* ---- seção de apresentação --*/
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-items: center;
+}
+
+.apresentacao__conteudo {
+    display: flex;
+    justify-content: center;
+    margin: 50px 50px 50px 50px;
+
+}
+
+.apresentacao__titulo {
+    font-size: 52px;
+    text-wrap: balance;
+}
+
+.apresentacao__subtitulo {
+    font-size: 22px;
+    text-wrap: balance;
+}
+
+.apresentacao__link {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.apresentacao__img {
+    width: 368px;
+    height: 368px;
+    justify-content: flex-end;
+}
+
+/* ---- seção sobre mim --*/
+
+.sobre-mim {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background-color: #000000;
+    color: #F5F5F5;
+    font-family: 'raleway';
+    padding: 4%;
+    gap: 16px;
+
+}
+
+.sobre-mim_titulo {
+    margin: 0;
+    font-size: 30px;
+}
+
+.sobre-mim_paragrafo {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* ---- seção skills --*/
+
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'raleway';
+}
+
+.habilidades__titulo {
+    justify-content: center;
+    font-size: 32px;
+    gap: 20px;
+}
+
+.habilidades__lista {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+
+.habilidades__html {
+    width: 173px;
+    height: 174px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    align-items: end;
+    padding: 20px;
+
+}
+
+.habilidades__javascript {
+    width: 173px;
+    height: 174px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    align-items: end;
+    padding: 20px;
+}
+
+.habilidades__css {
+    width: 173px;
+    height: 174px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    align-items: end;
+    padding: 20px;
+}
+
+/* ---- seção formação--*/
+
+.formacao {
+    display: flex;
+    flex-direction: column;
+    font-family: 'raleway';
+    background-color: var(--cor-do-link);
+    color: #FFFFFF;
+    padding: 5%;
+}
+
+.formacao__titulos {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
+
+.formacao__lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.formacao__item__unopar {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    font-size: medium;
+    font-weight: 200;
+    text-align: left;
+}
+
+.formacao__item__coder {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    font-size: medium;
+    font-weight: 200;
+    text-align: left;
+
+}
+
+.formacao__item__alura {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    text-align: left;
+    font-size: medium;
+    justify-content: flex-start;
+    font-weight: 200;
+}
+
+/* ---- seção de experiência --*/
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    font-family: 'raleway';
+}
+
+.experiencia__titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    
+}
+
+.gallery {
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+    
+}
+
+.gallery-item {
+    width: 385.72px;
+    height: 390.41px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: scale(1.1);
+    z-index: 1; 
+}
+
+/* ---- seção de contato --*/
+ 
+.contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'raleway';
+    padding: 20px;
+}
+
+.contato__titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
+
+.contato__texto {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.formulario__contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin: 0 auto;
+}
+
+.img_contato{
+    width: 368px;
+    height: 368px;
+    justify-content: flex-start;
+}
+
+/* Estilo dos labels */
+.formulario__contato label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+/* Estilo dos inputs e textarea */
+.formulario__contato input[type="text"],
+.formulario__contato input[type="email"],
+.formulario__contato input[type="tel"],
+.formulario__contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Estilo do botão de enviar */
+.formulario__contato input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.formulario__contato input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Estilo da textarea */
+.formulario__contato textarea {
+    height: 100px;
+    
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+}

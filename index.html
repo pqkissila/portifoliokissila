@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Kissila</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--menu-->
+    <header class="cabecalho">
+        <nav class="navegacao">
+            <ul class="navegacao__lista">
+                <li class="navegacao__elemento"><a href="#sobre-mim">Sobre mim</a></li>
+                <li class="navegacao__elemento"><a href="#skills">Skills</a></li>
+                <li class="navegacao__elemento"><a href="#formacao">Formação</a></li>
+                <li class="navegacao__elemento"><a href="#projetos">Projetos</a></li>
+                <li class="navegacao__elemento"><a href="mailto:contato@kissila.com">contato@kissila.com</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <!--seção de apresentação-->
+        <section class="apresentacao">
+            <div class="apresentacao__conteudo">
+                <div class="apresentacao__titulo__subtitulo">
+                    <h1 class="apresentacao__titulo">Olá, meu nome é Kissila Gomes e construo páginas web</h1>
+                    <p class="apresentacao__subtitulo">Eu sou formada em Design Gráfico e atualmente estou participando
+                        no
+                        projeto Oracle ONE na Alura.</p>
+                    <ul class="apresentacao__link">
+                        <li class="apresentacao__link__github">Github</li>
+                        <img src="arrow_1.png" alt="">
+                        <li class="apresentacao__link__linkedin">Linkedin</li>
+                        <img src="arrow_2.png" alt="">
+                        <li class="apresentacao__link__curriculo">Currículo</li>
+                        <img src="arrow_3.png" alt="">
+                    </ul>
+                </div>
+                <img class="apresentacao__img" src="img_kissila.png" alt="Foto Kissila">
+            </div>
+
+
+            <section class="sobre-mim">
+                <h2 class="sobre-mim_titulo">Sobre Mim</h2>
+                <p class="sobre-mim_paragrafo">Olá! Meu nome é Kissila e estou começando na área de web design.
+                    Sempre tive um grande interesse por tecnologia e, recentemente, decidi focar meus esforços em
+                    aprender a
+                    criar sites e desenvolver projetos online. Estou estudando lógica de programação e aprendendo a usar
+                    ferramentas que me ajudam a tornar o design dos sites mais eficientes e atraentes.
+
+                    Meu objetivo é ajudar empresas e indivíduos a terem uma presença digital forte e profissional. Estou
+                    muito
+                    animado com as oportunidades que essa área oferece e estou determinado a continuar aprendendo e
+                    evoluindo
+                    como web designer.</p>
+            </section>
+
+            <section class="habilidades">
+                <h3 class="habilidades__titulo">Skills</h3>
+                <ul class="habilidades__lista">
+                    <li class="habilidades__html">
+                        <div class="habilidades__html__text">
+                            <img src="icon_html.png" alt="Ícone HTML">
+                            Html
+                        </div>
+                    </li>
+                    <li class="habilidades__javascript">
+                        <div>
+                            <img src="icon_js.png" alt="Ícone JavaScript">
+                            Javascript
+                        </div>
+                    </li>
+                    <li class="habilidades__css">
+                        <div>
+                            <img src="icon_css.png" alt="Ícone CSS">
+                            Css
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+
+            <section class="formacao">
+                <h1 class="formacao__titulos">Formação acadêmica</h1>
+                <dl class="formacao__lista">
+                    <div class="formacao__item__unopar">
+                        <img src="unopar.png" alt="Logo da UNOPAR" class="formacao__img">
+                        <dt>Design Gráfico</dt>
+                        <dd>2024 - UNOPAR</dd>
+                    </div>
+
+                    <div class="formacao__item__coder">
+                        <img src="coder.png" alt="Logo da Coderhouse" class="formacao__img">
+                        <dt>Formação UI UX Design</dt>
+                        <dd>2020 - Coderhouse</dd>
+                    </div>
+
+                    <div class="formacao__item__alura">
+                        <img src="alura.png" alt="Logo da Alura" class="formacao__img">
+                        <dt>Formação em Front End</dt>
+                        <dd>Em andamento - Alura</dd>
+                    </div>
+                </dl>
+            </section>
+
+
+
+            <section class="experiencia">
+                <h2 class="experiencia__titulo">Experiência profissional</h2>
+                <div class="gallery">
+                    <img class="gallery-item" src="img_01.png" alt="Imagem de experiência profissional 1">
+                    <img class="gallery-item" src="img_02.png" alt="Imagem de experiência profissional 2">
+                    <img class="gallery-item" src="img_03.png" alt="Imagem de experiência profissional 3">
+                    <img class="gallery-item" src="img_04.png" alt="Imagem de experiência profissional 4">
+                </div>
+            </section>
+
+    </main>
+
+    <footer>
+        <section class="contato">
+            <h1 class="contato__titulo">Contato</h1>
+            <p class="contato__texto">Quer entrar em contato comigo?
+                Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
+                <form class="formulario__contato">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome"><br>
+
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email"><br>
+
+                <label for="telefone">Telefone:</label><br>
+                <input type="tel" id="telefone" name="telefone"><br>
+
+                <label for="assunto">Assunto:</label><br>
+                <input type="text" id="assunto" name="assunto"><br>
+
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem"></textarea><br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+            
+        </section>
+
+        <section class="rodape">
+            <p class="rodape__texto">Desenvolvido por Kissila
+                2024</p>
+        </section>
+    </footer>
+</body>
+
+</html>
